@@ -1,4 +1,4 @@
-# dataModel.EnergyConsumptionCost
+# dataModel.ConsumptionCost
 These data models related with the costs of energy consumption of the different consumption points.
 
 ### List of data models
