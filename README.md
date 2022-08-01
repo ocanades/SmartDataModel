@@ -1,10 +1,10 @@
-# dataModel.ConsumptionCost
+# dataModel.ConsumptionPoint
 These data models related with the costs of energy consumption of the different consumption points.
 
 ### List of data models
 
 The following entity types are available:
-- [EnergyConsumptionPointCost](readme link). Represent a  physical battery with its hardware specifications
+- [ConsumptionPointCost](readme link). Represent a  physical battery with its hardware specifications
 
 
 
