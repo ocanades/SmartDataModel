@@ -1,5 +1,5 @@
-Entity: EnergyConsumptionPointCost  
-==================================
+Entity: ConsumptionCost  
+=======================
   
 
 [Open License](Link to licence.md file)  
