@@ -9,39 +9,13 @@ This entity contains a harmonised geographic description of a Consumption Cost o
 
 ### Specification
 
-Link to the [interactive specification]()
-
 Link to the [specification](https://github.com/ocanades/dataModel.ConsumptionPoint/blob/feature/v.1.0.0/ConsumptionCost/doc/spec.md)
-
-Enlace a la [Especificación en español]()
-
-Lien vers le [spécification en français]()
-
-Link zur [deutschen Spezifikation]()
-
-Link alla [specifica]()
-
-[仕様へのリンク]()
 
 ### Examples
 
 Link to the [example](https://github.com/ocanades/dataModel.ConsumptionPoint/blob/feature/v.1.0.0/ConsumptionCost/examples/example.json) (keyvalues) for NGSI v2
 
-Link to the [example]() (keyvalues) for NGSI-LD
-
-Link to the [example]() (normalized) for NGSI-V2
-
-Link to the [example]() (normalized) for NGSI-LD
-
-Link to the [example]() (geojson feature) for NGSI-LD
-
 ### Dynamic Examples generation
-
-Link to the [Generator]() of NGSI-LD normalized payloads compliant with this data model. Refresh for new values
-
-Link to the [Generator]() of NGSI-LD keyvalues payloads compliant with this data model. Refresh for new values
-
-Link to the [Generator]() of geojson feature format payloads compliant with this data model. Refresh for new values
 
 ### Contribution
 
