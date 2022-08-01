@@ -9,8 +9,8 @@ The following entity types are available:
 
 
 ### Contributors
-[Link](https://github.com/smart-data-models/dataModel.Battery/blob/master/CONTRIBUTORS.yaml) to the XX current contributors of the data models of this Subject.
+[Link](https://github.com/ocanades/dataModel.ConsumptionPoint/blob/feature/v.1.0.0/CONTRIBUTORS.yaml) to the XX current contributors of the data models of this Subject.
 
 
 ### Contribution
-You can raise an [issue](https://github.com/smart-data-models/dataModel.Battery/issues) or submit your [PR](https://github.com/smart-data-models/dataModel.Battery/pulls) on existing data models.
+You can raise an [issue](https://github.com/ocanades/dataModel.ConsumptionPoint/issues) or submit your [PR](https://ggithub.com/ocanades/dataModel.ConsumptionPoint/main/pulls) on existing data models.
