@@ -7,7 +7,7 @@ This entity contains a harmonised geographic description of a Consumption Cost o
 
 ### Specification
 
-Link to the [https://github.com/ocanades/dataModel.ConsumptionPoint/blob/main/ConsumptionCost/doc/spec.md)
+Link to the [specification](https://github.com/ocanades/dataModel.ConsumptionPoint/blob/main/ConsumptionCost/doc/spec.md)
 
 ### Examples
 
