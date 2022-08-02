@@ -7,11 +7,11 @@ This entity contains a harmonised geographic description of a Consumption Cost o
 
 ### Specification
 
-Link to the [specification](https://github.com/ocanades/dataModel.ConsumptionPoint/blob/feature/v.1.0.0/ConsumptionCost/doc/spec.md)
+Link to the [https://github.com/ocanades/dataModel.ConsumptionPoint/blob/main/ConsumptionCost/doc/spec.md)
 
 ### Examples
 
-Link to the [example](https://github.com/ocanades/dataModel.ConsumptionPoint/blob/feature/v.1.0.0/ConsumptionCost/examples/example.json) (keyvalues) for NGSI v2
+Link to the [example](https://github.com/ocanades/dataModel.ConsumptionPoint/blob/main/ConsumptionCost/examples/example.json) (keyvalues) for NGSI v2
 
 ### Dynamic Examples generation
 
