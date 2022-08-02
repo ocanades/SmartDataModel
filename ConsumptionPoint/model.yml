@@ -1,0 +1,86 @@
+ConsumptionPoint:
+  description: 'Information about the consumption point entity.'
+  properties:
+    id:
+      description: 'Unique identifier of the entity.'
+      anyOf: &anyof
+      - description: 'Property. Identifier format of any NGSI entity.'
+        maxLength: 256
+        minLength: 1
+        pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$
+        type: string
+      - description: 'Property. Identifier format of any NGSI entity.'
+        format: uri
+        type: string
+        x-ngsi:
+          type: Property
+    category:
+      # todo: will be an enum with buildings, pointsOfInterests, streetlights, etc.
+      description: 'Category of the consumption point. Enum: ...'
+    name:
+      description: 'The name of this item.'
+      type: string
+      x-ngsi:
+        type: Property
+    alternateName:
+      description: 'An alternative name for this item.'
+      type: string
+      x-ngsi:
+        type: Property
+    address:
+      description: 'The mailing address.'
+      properties:
+        addressCountry:
+          description: 'Property. The country. For example, Spain.' #Model:''https://schema.org/addressCountry''
+          type: string
+        addressLocality:
+          description: 'Property. The locality in which the street address is, and which is in the region. Model:''https://schema.org/addressLocality'''
+           type: string
+      type: object
+      x-ngsi:
+        type: Property
+    code:
+      description: 'An identifier code for this item.'
+      type: string
+      x-ngsi:
+        type: Property
+    dateCreated:
+      description: 'Entity creation timestamp. This will usually be allocated by the storage platform.'
+      format: date-time
+      type: string
+      x-ngsi:
+        type: Property
+    dateModified:
+      description: 'Timestamp of the last modification of the entity. This will usually be allocated by the storage platform.'
+      format: date-time
+       type: string
+      x-ngsi:
+        type: Property
+    description:
+      description: 'A description of this item.'
+      type: string
+      x-ngsi:
+        type: Property
+    location:
+      description: 'Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon.'
+      oneOf: *consumptionPoint_-_properties_-_location_-_oneof
+      x-ngsi:
+        type: Geoproperty
+    type: object
+  type:
+    description: 'NGSI Entity type'
+    enum:
+      - ConsumptionPoint
+    type: string
+    x-ngsi:
+      type: Property
+  required:
+      - type
+      - id
+  type: object
+  x-derived-from: ""
+  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2021 Contributors to Smart Data Models Program'
+  x-license-url: #https://github.com/smart-data-models/dataModel.Building/blob/master/Building/LICENSE.md
+  x-model-schema: #https://smart-data-models.github.io/dataModel.Building/Building/schema.json
+  x-model-tags: ""
+  x-version: 0.0.1

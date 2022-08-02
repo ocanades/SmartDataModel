@@ -4,6 +4,7 @@ These data models related with the costs of energy consumption of the different 
 ### List of data models
 
 The following entity types are available:
+- [ConsumptionPoint](https://github.com/ocanades/dataModel.ConsumptionPoint/blob/feature/v.1.0.0/ConsumptionPoint/README.md). Represent a model for consumption values and costs of a consumption point.
 - [ConsumptionCost](https://github.com/ocanades/dataModel.ConsumptionPoint/blob/feature/v.1.0.0/ConsumptionCost/README.md). Represent a model for consumption values and costs of a consumption point.
 - [Temperatures](https://github.com/ocanades/dataModel.ConsumptionPoint/blob/feature/v.1.0.0/Tempertaures/README.md). Represent a model for temperature lectures of a consumption point.
 
