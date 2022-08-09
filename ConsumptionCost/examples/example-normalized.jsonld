@@ -11,12 +11,12 @@
     },
     "consumptionPoint": {
         "type": "Relationship",
-        "object": [
+        "value": [
             "did:consumpoint:EN04"
         ]
     },
     "consumptionAndCost": [{
-        "type": "Property",
+        "type": "StructuredValue",
         "value": {
             "id": {
                 "type": "Property",
@@ -31,7 +31,7 @@
                 "value": "Electric Company, S.A."
             },
             "energyConsumed": {
-                "type": "Property",
+                "type": "StructuredValue",
                 "value": {
                     "measurmentUnit": {
                         "type": "Property",
@@ -44,14 +44,14 @@
                 }
             },
             "energyAmount": {
-                "type": "Property",
+                "type": "StructuredValue",
                 "value": {
                     "currency": {
-                        "type": "Text",
+                        "type": "Property",
                         "value": "EUR"
                     },
                     "value": {
-                        "type": "Number",
+                        "type": "Property",
                         "value": 374.00
                     }
                 }
@@ -60,7 +60,6 @@
         }
     }],
     "@context": [
-        "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
-        "https://raw.githubusercontent.com/smart-data-models/incubated/master/CROSSSECTOR/Consumption.Point/context.jsonld"
+        "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
     ]
 }
