@@ -1,21 +1,20 @@
 {
     "id": "did:enerconsumcost:2022-07-3325",
     "type": "ConsumptionCost",
-    "year": 2022,
-    "month": 7,
-    "consumptionPoint": {
-        "id": "did:consumpoint:EN04",
-        "type": "ConsumptionPoint",
-    },
-    "energyConsumptionCost": [{
+    "year": "2022",
+    "month": "07",
+    "consumptionPoint": [
+        "did:consumpoint:EN04"
+    ],
+    "consumptionAndCost": [{
             "id": "did:ener:ele:ESXXXXXXXXXXXXXXXXXXXX",
-            "type": "electricity",
-            "supplyName": "Endesa, S.A.",
-            "consumption": {
-                "measurmentUnit": "kWh",
+            "energyType": "electricity",
+            "supplyName": "Electric Company, S.A.",
+            "energyConsumed": {
+                "measurmentUnit": "KWH",
                 "value": 800.00
             },
-            "amount": {
+            "energyAmount": {
                 "currency": "EUR",
                 "value": 374.00
             }
@@ -23,16 +22,11 @@
         {
             "id": "did:ener:gas:ESXXXXXXXXXXXXXXXXXXXX",
             "type": "gas",
-            "supplyName": "Endesa, S.A.",
-            "consumption": [{
-                    "measurmentUnit": "m3",
-                    "value": 35.00
-                },
-                {
-                    "measurmentUnit": "kWh",
-                    "value": 431.00
-                }
-            ],
+            "supplyName": "Gas Company, S.A.",
+            "consumption": {
+                "measurmentUnit": "MTQ",
+                "value": 35.00
+            },
             "amount": {
                 "currency": "EUR",
                 "value": 250.32
@@ -41,9 +35,9 @@
         {
             "id": "did:ener:wat:02060767",
             "type": "water",
-            "supplyName": "Sorea",
+            "supplyName": "Water Company",
             "consumption": {
-                "measurmentUnit": "m3",
+                "measurmentUnit": "MTQ",
                 "value": 33.00
             },
             "amount": {
